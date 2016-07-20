@@ -1,0 +1,83 @@
+# Ignore everything initially
+/*
+# General ignore list
+# - these ignores are used if I decide to not ignore everything initially
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Specific directory names to ignore
+*/cache/*
+*/backups/*
+
+# Ignore all directories and files containing any of the following strings in their filename
+*@*
+*@eaDir*
+*@SynoResource*
+*twenty*
+*Twenty*
+
+# File types to ignore
+*.zip
+*.env
+
+
+# DON'T IGNORE
+
+!.gitignore
+!.htaccess
+!readme.*
+
+# ignore (s)ftp config file for Sublime Text package
+sftp-config.json
+sftp-config-alt.json
+
+# (s)ftp config file for Atom package
+!deployment-config.json
+
+# config files for composer
+!*composer.json
+!*composer.lock
+
+# Wordpress specific
+wp-config.php
+!wp-content/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/panther/
+wp-content/themes/panther/vendor/*
+wp-content/themes/panther/cache/*
+wp-content/themes/panther/library/less/style.css
+wp-content/themes/panther/library/less/login.css
+!wp-content/plugins/
+wp-content/plugins/*
+!wp-content/plugins/panther/
+!wp-content/db-error.php
+!wp-content/db.php
+!wp-content/uploads/
+wp-content/uploads/*
+!wp-content/uploads/fbrfg/
