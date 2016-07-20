@@ -2322,7 +2322,6 @@
         "custom_fields",
         "discussion",
         "comments",
-        "revisions",
         "slug",
         "author",
         "format",
@@ -2333,5 +2332,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1464582464
+    "modified": 1466822345
 }
